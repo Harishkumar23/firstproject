@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<section class="top-sec thetop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="top-left">
+                            <span><i class="fa fa-phone"></i> &nbsp;&nbsp;9000000009</span>
+                            <span><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;info@aaa.com</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="top-right">
+                            <ul>
+                               		<li><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
+									<li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+									<li><i class="fa fa-google-plus-official" aria-hidden="true"></i></li>
+									<li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+					 				<li><a href="appoinment.html" class="a-link">appointment</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<section class="main-area">
+<nav class="navbar">
+    <div class="container">
+  		<div class="col-md-3">
+    		<div class="navbar-header">
+      				<img src="images/1.png" height="100px" width="90">
+    		</div>
+    	</div>
+    	<div class="col-md-9">
+    <ul class="nav navbar-nav pull-right">
+     
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="index.html">Home <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="index.html">Home-1</a></li>
+          <li><a href="index.html">home-2</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="service.html">Service</a></li>
+          <li><a href="servicedetails.html">Service details</a></li>
+          
+        </ul>
+      </li>
+       <li><a href="Gallery.html">Gallery</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Pages <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Our doctor</a></li>
+          <li><a href="#">Appointment</a></li>
+          
+        </ul>
+      </li>
+      
+       <li><a href="#">Blog</a>
+        <!-- <ul class="dropdown-menu">
+          <li><a href="#">Blog grid</a></li>
+          <li><a href="#">Blog list</a></li>
+          <li><a href="#">Blog with sidebar</a></li>
+           <li><a href="#">Single Blog</a></li>
+        </ul> -->
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+</section>
+            <section class="med-banner2">
+            <div class="med-overlay2"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="med-banner-header2">
+                            <h2>Contact</h2>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active">Contact</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+               <section class="contact section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-us-header">
+                            <h2>Company Address</h2>
+                        </div>
+                        <div class="contact-us">
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i><span>1234. Park Street Avenue Newyork City</span></li>
+                                <li><i class="fa fa-phone"></i><span>+123456789</span></li>
+                                <li><i class="fa fa-envelope-o"></i><span>info@gmail.com</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact-form">
+							<div id="error" class="alert alert-danger" style="display: none">Msg Sending Failed</div>
+                            <div id="success" class="alert alert-success" style="display: none">Msg Sending Success</div>
+                            <form class="cmxform" id="contact-form" method="POST" action="http://preview.ryetheme.com/medipath/send_mail.php">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="contact-header text-capitalize">
+                                            <h2>get in touch</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Full Name" id="cname" name="name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Email" id="cemail" name="email" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" rows="3" placeholder="Write your Message here..." id="ccomment" name="comment" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="confirm text-center">
+                                            <button type="submit" class="btn btn-danger submit" value="submit">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <section class="map-area">
+            	<div class="container">
+            		<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237.88182630897816!2d78.38717131363478!3d17.454485733792175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91638c156a55%3A0x70d0a7de7e874296!2sChanda+Naik+Nagar%2C+Madhapur%2C+Hyderabad%2C+Telangana+500081!5e0!3m2!1sen!2sin!4v1525954981198" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            		
+            	</div>
+            	
+            </section>
+                     <section class="widgetarea">
+	              	 <div class="container">
+	              	 	<div class="row">
+	              	 		<div class="col-md-4">
+	              	 			<div class="aboutus">
+	              	 				<img src="images/1.png">
+	              	 				    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quibusdam ullam, blanditiis magnam dolores.</p>
+	              	 	        </div>
+	              	 			   <div class="socialmedia">
+                            				<h5>STAY CONNECTED</h5>
+                            			<ul>
+                                			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                               				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                               				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                			<li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                            			</ul>
+                        			</div>
+	              	 	</div>
+	              	 		<div class="col-md-4">
+	              	 		  <div class="widtitle">
+	              	 		  	<h4>Our Service</h4>
+	              	 		  		
+	              	 		  </div>
+	              	 		  	 <div class="categories">
+	              	 		  	   	<div class="row">
+	              	 		  	   	  <div class="col-md-6">
+	              	 		  	   	  	<ul>
+	              	 		  	   	  	    <li><a href="#"><i class="fa fa-angle-right"></i>Cardiology</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right"></i>Neurology</a></li>
+                                           <li><a href="#"><i class="fa fa-angle-right"></i>Traumatology</a></li>
+                                           <li><a href="#"><i class="fa fa-angle-right"></i>Dental</a></li>
+                                           <li><a href="#"><i class="fa fa-angle-right"></i>Pregnancy</a></li>
+	              	 		  	   	  	</ul>
+	              	 		  	   	  	 	
+	              	 		  	   	</div>
+	              	 		  	   	   <div class="col-md-6">
+	              	 		  	   	   	<ul>
+	              	 		  	   	   	   <li><a href="#"><i class="fa fa-angle-right"></i>Appointment</a></li>
+                                           <li><a href="#"><i class="fa fa-angle-right"></i>Neurology</a></li>
+                                           <li><a href="#"><i class="fa fa-angle-right"></i>Physiotherapists</a></li>
+                                           <li><a href="#"><i class="fa fa-angle-right"></i>Laboratory</a></li>
+                                          <li><a href="#"><i class="fa fa-angle-right"></i>Health Topics</a></li>
+	              	 		  	   	   	</ul>
+	              	 		  	   	   	
+	              	 		  	   	   </div>
+	              	 		  	   	  	
+	              	 		  	   	 </div>
+	              	 		  	   	
+	              	 		  	   </div>
+	              	 		  </div>
+
+	              	 		  <div class="col-md-4">
+	              	 		  	<div class="widtitle2">
+	              	 		  		<h4>Newsletter</h4>
+	              	 		  	</div>
+	              	 		  	    <div class="letter">
+	              	 		  	       <p>Type your email address below and receive our daily news letter for free.</p>
+	              	 		  	    <div class="form">
+	              	 		  	    	<input type="text" name="Email" placeholder="Input Your Email...">
+	              	 		  	    	
+	              	 		  	    </div>	
+	              	 		  	      <div class="email-btn">
+	              	 		  	      	<button type="submit" class="med-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+	              	 		  	      </div>
+	              	 		  	    </div>
+	              	 		  </div>
+	              	 	</div>
+	              	 	
+	              	 </div>
+	              	
+	              </section>
+	                      <section class="footersec">
+	                 	<div class="container">
+	                 		<div class="row">
+	                 			<div class="col-md-12">
+	                 				<div class="footertext">
+	                 					<p><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;&nbsp;Copyright 2018 All rights reserved by Medipath</p>
+	                 				</div>
+	                 			</div>
+	                 			
+	                 		</div>
+	                 		
+	                 	</div>
+	                 	
+	                 </section>
+
+                         <div class='scrolltop'>
+                  <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
+             </div>
+
+
+                       <script type="text/javascript">
+  $(window).scroll(function() {
+  if ($(this).scrollTop() > 150) {
+    $(".scrolltop:hidden")
+      .stop(true, true)
+      .fadeIn();
+  } else {
+    $(".scrolltop")
+      .stop(true, true)
+      .fadeOut();
+  }
+});
+$(function() {
+  $(".scroll").click(function() {
+    $("html,body").animate({ scrollTop: $(".thetop").offset().top }, "1000");
+    return false;
+  });
+});
+
+</script>
+
+</body>
+</html>

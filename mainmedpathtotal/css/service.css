@@ -1,0 +1,514 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+section.top-sec {
+    background: #1ED1C7;
+    padding: 10px;
+}
+.top-left span {
+    margin-right: 10px;
+}
+.top-left {
+    position: relative;
+    bottom: -6px;
+    color: white !important;
+    }
+.top-right ul {
+    text-align: right;
+}
+.top-right ul li {
+    display: inline-block;
+    padding: 0px 10px;
+        position: relative;
+    bottom: -6px;
+        color: white!important;
+}
+.a-link {
+    color: #1ED1C7;
+    text-decoration: none;
+    background: white;
+    padding: 19px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 0px;
+}
+
+.navbar-header img {
+    width: 100px;
+    height: 90px;
+}
+.nav{
+    margin-top: 30px !important;
+}
+.navbar ul li a {
+    color: #448AFF;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+section.main-area {
+    padding: 10px;
+}
+
+
+
+.med-banner2 {
+    position: relative;
+    margin-top: -20px;
+}
+.med-overlay2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #673BB7;
+    opacity: 0.8;
+}
+.med-banner-header2 {
+    margin-bottom: 50px;
+    margin-top: 150px;
+    color: #fff;
+    text-align: center;
+}
+.med-banner-header2 .breadcrumb {
+    background: transparent;
+    padding: 0px;
+}
+.med-banner-header2 .breadcrumb li a {
+    color: #fff;
+    text-transform: uppercase;
+}
+.med-banner-header2 .breadcrumb > .active {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+
+section.thirdsec {
+    padding: 60px 0px;
+}
+.service1 {
+    background: #673BB7;
+    padding: 30px;
+}
+.service-icon {
+    margin-top: 15px;
+    position: relative;
+    margin-bottom: 15px;
+}
+i.fa.fa-heartbeat {
+    color: white;
+    font-size: 28px;
+}
+.servicedetails {
+    position: relative;
+}
+.servicedetails h4 {
+    margin-bottom: 15px;
+    color: white;
+}
+.servicedetails p {
+    margin-bottom: 15px;
+    color: white;
+}
+button.button1 {
+    background: black;
+    color: white;
+        font-size: 16px;
+    padding: 8px 17px;
+    border: none;
+        font-weight: 600;
+}
+.service2 {
+    background: #1ED1C7;
+    padding: 30px;
+}
+.service-icon1 {
+    margin-top: 15px;
+    position: relative;
+    margin-bottom: 15px;
+}
+i.fa.fa-wheelchair-alt {
+    color: white;
+    font-size: 28px;
+}
+.servicedetails1 {
+    position: relative;
+}
+.servicedetails1 h4 {
+    color: white;
+    margin-bottom: 15px;
+}
+.servicedetails1 p {
+    color: white;
+    margin-bottom: 15px;
+}
+button.button2 {
+    background: black;
+    color: white;
+        font-size: 16px;
+    padding: 8px 17px;
+    border: none;
+        font-weight: 600;
+}
+.service3 {
+    background: #448AFF;
+    padding: 30px;
+}
+.service-icon3 {
+    margin-top: 15px;
+    position: relative;
+    margin-bottom: 15px;
+}
+i.fa.fa-ambulance {
+    color: white;
+    font-size: 28px;
+}
+.servicedetails3 {
+    position: relative;
+}
+.servicedetails3 h4 {
+    margin-bottom: 15px;
+    color: white;
+}
+.servicedetails3 p {
+    margin-bottom: 15px;
+    color: white;
+}
+button.button3 {
+    background: black;
+    color: white;
+        font-size: 16px;
+    padding: 8px 17px;
+    border: none;
+        font-weight: 600;
+}
+
+
+
+section.services {
+    padding: 30px 0px;
+}
+.servicetitle {
+    margin-bottom: 30px;
+}
+.servicetitle h2 {
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+.servicetitle p {
+    text-align: center;
+}
+
+
+
+section.servicesss {
+    padding: 25px 0px;
+}
+.servicearea {
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #448AFF;
+    margin-bottom: 40px;
+}
+.serviceicon {
+    margin-bottom: 20px;
+}
+.serviceicon i {
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    background: #673BB7;
+    color: white;
+    border-radius: 50%;
+    padding-top: 18px;
+    padding-left: 0px;
+}
+.serviceicon h4 {
+    color: #1ED1C7;
+    font-weight: 600;
+}
+.serviceicon p {
+    font-size: 15px;
+}
+
+.servicearea2 {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 40px;
+    border: 1px solid #448AFF;
+}
+.serviceicon2 {
+    margin-bottom: 20px;
+}
+.serviceicon2 i {
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    background: #673BB7;
+    color: white;
+    border-radius: 50%;
+    padding-top: 22px;
+    padding-left: 0px;
+}
+.serviceicon2 h4 {
+    color: #1ED1C7;
+    font-weight: 600;
+}
+.serviceicon2 p {
+    font-size: 15px;
+}
+.servicearea3 {
+    /*text-align: center;*/
+    padding: 30px;
+    margin-bottom: 40px;
+    border: 1px solid #448AFF;
+}
+.serviceicon3 {
+    margin-bottom: 20px;
+}
+.serviceicon3 i {
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    background: #673BB7;
+    color: white;
+    border-radius: 50%;
+    padding-top: 18px;
+    padding-left: 0px;
+}
+.serviceicon3 h4 {
+    color: #1ED1C7;
+    font-weight: 600;
+}
+.serviceicon3 p {
+    font-size: 15px;
+}
+
+
+
+
+
+section.testimonials {
+    position: relative;
+        padding-top: 25px;
+}
+.med-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #673BB7;
+    opacity: 0.8;
+}
+.testi-title {
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+}
+.testi-title h2 {
+    font-weight: 600;
+}
+.testi-title p {
+    font-size: 16px;
+}
+.testi-area {
+    background: #fff;
+    overflow: hidden;
+    padding: 40px;
+}
+.testi-text {
+    margin-bottom: 30px;
+}
+.testi-details {
+    border-top: 1px solid #ccc;
+}
+.testi-img {
+    position: relative;
+    margin-top: 20px;
+}
+.testi-img img {
+    margin-top: 13px;
+}
+.testi-info {
+    position: absolute;
+    left: 30%;
+    bottom: 50px;
+}
+.testi-info h4  {
+    position: relative;
+    font-size: 17px;
+    color: #232323;
+    font-weight: 700;
+    margin-bottom: 9px;
+    margin-top: 22px;
+        margin-left: 25px;
+}
+.testi-info h5 {
+    position: relative;
+    font-size: 17px;
+    color: #232323;
+    /*font-weight: 70;*/
+    margin-bottom: 9px;
+    margin-top: 17px;
+        margin-left: 23px;
+}
+.padding-bottom {
+    padding-bottom: 50px;
+}
+
+
+
+
+
+section.widgetarea {
+    padding: 60px 0px;
+    background: black;
+}
+
+.aboutus img {
+    width: 100px;
+    height: 90px;
+}
+.aboutus p {
+    margin-top: 15px;
+    color: #fff;
+        font-size: 15px;
+}
+.socialmedia h5 {
+    color: aqua;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.socialmedia ul li {
+    display: inline-block;
+      margin-right: 54px;
+    margin-left: -42px;
+}
+.socialmedia ul li a {
+    display: block;
+    color: white;
+    height: 40px;
+    width: 40px;
+    background: #448AFF;
+    line-height: 40px;
+    text-align: center;
+}
+
+.widtitle h4 {
+    color: white;
+}
+.categories li {
+    list-style: none;
+    margin-bottom: 10px;
+        margin-left: -37px;
+}
+.categories li a {
+    color: white;
+}
+.categories li i {
+    margin-right: 10px;
+}
+.widtitle2 h4 {
+    color: white;
+    margin-bottom: 20px;
+}
+.letter p {
+    color: white;
+    margin-bottom: 30px;
+        font-size: 15px;
+}
+.form {
+    margin-bottom: 15px;
+}
+.form input[type="text"] {
+    height: 50px;
+    /*color: powderblue;*/
+    border: 1px solid #448AFF;
+    padding: 6px 12px;
+        width: 100%;
+}
+
+.med-btn {
+    position: absolute;
+    width: 60px;
+    border-radius: 0;
+    background: #448AFF;
+    color: #fff;
+    height: 48px;
+    bottom: 16px;
+    right: 15px;
+    border: 2px solid #448AFF;
+        font-size: 16px;
+}
+
+
+
+
+
+section.footersec {
+    background: #448AFF;
+}
+.footertext {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.footertext i.fa.fa-copyright {
+    font-size: 15px;
+}
+
+
+
+.scrolltop {
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+}
+.scroll {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  /*background: #b2b2b2;*/
+  background: rgba(82, 209, 199);
+  padding: 20px;
+  text-align: center;
+  margin: 0 0 0 0;
+  cursor: pointer;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  border-radius: 50%;
+      width: 70px;
+    height: 70px;
+}
+.scroll:hover {
+  background: rgba(178, 178, 178, 1);
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.scroll:hover .fa {
+  padding-top: -10px;
+}
+.scroll .fa {
+  font-size: 30px;
+  margin-top: -5px;
+  margin-left: 1px;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
